@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e4346a43b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Arzymat</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row no-gutters menu">
+          <div class="col-md-3">
+            <a href="./index.html">
+              <h2>Arzymat</h2>
+            </a>
+          </div>
+          <div class="col-md-9">
+            <nav class="navbar">
+              <div class="menu-drop" id="main-menu">
+                <ul class="p-2">
+                  <li><a href="#homepage">Главная</a></li>
+                  <li><a href="#servicesid">Услуги</a></li>
+                  <li><a href="#ktomy">О нас</a></li>
+                  <li class="icons">
+                    <a class="search" href=""><i class="fas fa-search"></i></a>
+                    <a
+                      class="insta-icon"
+                      href="https://www.instagram.com/01asanov__/"
+                      target="_blank"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                    <a
+                      class="tele-icon"
+                      href="https://t.me/arka6aev1"
+                      target="_blank"
+                      ><i class="fa fa-telegram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <a class="mobNav" id="toggle-menu" onclick="openmenu()">
+              <i class="fa fa-bars" style="color: #fff; font-size: large"></i>
+            </a>
+          </div>
+        </div>
+        <div class="call-to row no-gutters" id="homepage">
+          <div class="col-12 my-image">
+            <img
+              class="my-image1"
+              src="img/img1.jpg"
+              alt="My photo"
+              style="width: 200px; height: 200px"
+            />
+          </div>
+          <div class="col-12 main-center">
+            <div class="main-title">I Am <span>Arzymat</span></div>
+          </div>
+          <div class="col-12">
+            <h2 class="main-zag">Реализация идей - легко, просто и быстро</h2>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="kto row no-gutters" id="ktomy">
+          <div class="col-lg-7">
+            <h1><span>Arkabaev Arzymat</span></h1>
+            <h2>Начинающий <span>Flutter Developer & Django Developer></h2>
+            <p class="about">
+              Привет, меня зовут Арзымат. 
+            </p>
+            <a
+              class="learn-more"
+              href=""
+              target="_blank"
+              >learn more</a
+            >
+          </div>
+          <div class="col-lg-5 myphoto2">
+            <img src="img/img2.jpeg" alt="my photo2" />
+          </div>
+        </div>
+      </section>
+      <section class="offer-sec">
+        <div class="row align-items-center">
+          <div class="col-12 offer">
+            <h2 class="tema">ЧТО Я ПРЕДЛАГАЮ?</h2>
+            <p>
+              Так как я начинающий программист, хочу много практиковать. Если у
+              тебя есть крутые идеи из нижеперечисленных направления и ты не
+              знаешь как реализовать или просто нуждаешься советам, то просто
+              свяжись со мной. Я с радостью постараюсь сделать эти услуги
+              абсолютно бесплатно. Только до конца этого месяца(ноябрь).
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="services row no-gutters" id="servicesid">
+          <div class="col-12">
+            <h1 class="tema">Услуги</h1>
+            <div class="item row justify-content-between fade-1">
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="section-content">
+                  <div class="media">
+                    <div class="img d-flex mr-3">
+                      <i
+                        class="iconify"
+                        data-icon="ion-ios-browsers-outline"
+                        style="font-size: 50px"
+                      ></i>
+                    </div>
+                    <div class="media-body">
+                      <h4>Вебсайты</h4>
+                      <p>Создание и обновление веб-сайтов</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="img d-flex mr-3">
+                      <i
+                        class="iconify"
+                        data-icon="ion-code"
+                        style="font-size: 50px"
+                      ></i>
+                    </div>
+                    <div class="media-body">
+                      <h4>Приложения</h4>
+                      <p>Разработка мобильных приложений на Android и IOS</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6">
+                <div class="section-content">
+                  <div class="media">
+                    <div class="img d-flex mr-3">
+                      <i
+                        class="iconify"
+                        data-icon="ion-ios-paperplane-outline"
+                        style="font-size: 50px"
+                      ></i>
+                    </div>
+                    <div class="media-body">
+                      <h4>Боты</h4>
+                      <p>Автоматизация сервисов через телеграм боты</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="img d-flex mr-3">
+                      <i
+                        class="iconify icon:ion-ios-color-wand-outline"
+                        style="font-size: 50px"
+                      ></i>
+                    </div>
+                    <div class="media-body">
+                      <h4>Дизайн</h4>
+                      <p>Разработка уникального дизайна</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              <h2 class="tema">Cвяжитесь со мной</h2>
+              <p class="text-muted">
+                Напишите мне, если у вас есть вопросы, предложения или просто
+                хотите спросить, как у меня дела.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="text-center">
+                <div class="icon">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+                <div class="content">
+                  <div class="name">WHATSAPP</div>
+                  <p class="text-muted">Напишите мне в WhatsApp</p>
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=996779858216&text&app_absent=0"
+                    target="_blank"
+                    >+996 779 85 82 16</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+                <div class="icon"><i class="fas fa-envelope"></i></div>
+                <div class="content">
+                  <div class="name">EMAIL</div>
+                  <p class="text-muted">Напишите мне письмо</p>
+                  <a href="mailto:kuba.asanov4@gmail.com"
+                    >arzymatarkabaev01@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center">
+                <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="content">
+                  <div class="name">LOCATION</div>
+                  <p class="text-muted">Batken, Kyrgyzstan</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-form">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="custom-form mb-sm-30">
+                <form action="#" method="POST" name="contact-form">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="row">
+                        <div class="col-lg-12 input">
+                          <input
+                            name="name"
+                            type="text"
+                            class="form-control border rounded"
+                            placeholder="Ваше имя:"
+                            />
+                        </div>
+                        <div class="col-lg-12 input">
+                          <input
+                            name="email"
+                            type="email"
+                            class="form-control border rounded"
+                            placeholder="Ваш email:"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <textarea
+                        name="comments"
+                        id="comments"
+                        rows="4"
+                        class="form-control border rounded"
+                        placeholder="Ваше сообщение:"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 text-right">
+                    <input
+                      type="submit"
+                      name="send"
+                      class="submitBnt btn btn-custom rounded"
+                      value="Отправить"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer bg-dark">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h3>ARZYMAT</h3>
+            <p>I'm a novice Mobile App & Django Developer.</p>
+            <ul class="social-icons">
+              <li>
+                <a
+                  class="icon"
+                  href="https://www.instagram.com/arka6aev1/"
+                  target="_blank"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="icon"
+                  href=""
+                  target="_blank"
+                  ><i class="fa fa-youtube" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a class="icon" href="https://t.me/arka6aev1ss" target="_blank"
+                  ><i class="fab fa-telegram-plane" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="icon"
+                  href="https://www.linkedin.com/in/arzymat-arkabaev-130639232/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <hr />
+      <footer class="footer footer-bar bg-dark">
+        <div class="col-12 text-center">
+          © 2023 Arkabaev Arzymat
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
